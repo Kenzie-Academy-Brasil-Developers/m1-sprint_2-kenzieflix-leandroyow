@@ -12,10 +12,13 @@ main {
 
 h1 {
     color: #FFFFFF;
+    font-family: font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    size: 32px;
 }
 
-.c_father {
-    max-width: 700px;
+.c_father { 
+   
 }
 
 .container {
@@ -23,7 +26,7 @@ h1 {
 }
 
 .users {
-        
+        width: 100%;
         color: #9c9c9c; 
         
         
@@ -31,15 +34,26 @@ h1 {
 }
 
 .l1 {
+    max-width: 700px;
     
-    
- 
 }
 
-.u_image {
-    border-radius: 12px;
+.i1:hover {
+    border: solid white;
+    border-width: 4px;
+}
+
+.i1 {
     width: 160px;
     height: 160px;
+    border-radius: 8%;
+
+}
+
+p {
+    font: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
 }
 
 .quadrado {
@@ -54,6 +68,14 @@ h1 {
     
 }
 
+.quadrado:hover  {
+    border: solid white;
+    border-width: 6px;
+    
+}
+
+
+
 .quadrado .circulo {
 width: 60px;
 height: 60px;
@@ -65,6 +87,12 @@ align-items: center;
 
 }
 
+.quadrado:hover .circulo  {
+    border: solid white;
+    border-width: 8px;
+    
+}
+
 .quadrado .circulo .cima {
     position: absolute;
     width: 0.1px;
@@ -74,6 +102,11 @@ align-items: center;
 
 }
 
+.quadrado:hover .cima  {
+    border: solid white;
+    border-width: 3px;
+}
+
 .quadrado .circulo .baixo {
     position: absolute;
     width: 25px;
@@ -81,4 +114,28 @@ align-items: center;
     border-radius: 12px;
     border: 4px solid #6F6F70;
     
+}
+
+.quadrado:hover .baixo  {
+    border: solid white;
+    border-width: 100%;
+}
+
+
+button {
+    
+    background-color: #121214;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    color: #FFFFFF;
+    width: 206px;
+    height: 40px;
+    border: 2.5px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    color: #000000;
 }
