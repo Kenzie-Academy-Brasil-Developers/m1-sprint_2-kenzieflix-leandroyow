@@ -121,6 +121,10 @@ align-items: center;
     border-width: 100%;
 }
 
+.fp {
+    position: absolute;
+    margin-bottom: -16%;
+}
 
 button {
     
