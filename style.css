@@ -56,9 +56,14 @@ h1 {
     width: 160px;
 }
 
-.i1:hover {
+.l1:hover p {
+    color: #FFFFFF;
+}
+
+.l1:hover .i1 {
     border: solid white;
     border-width: 4px;
+    
 }
 
 .i1 {
@@ -77,8 +82,11 @@ h1 {
 
 .l2:hover .i2 {
     content: url("./img/Hover/quadhover.png");
-    border: solid 4px white;
-    
+    border: solid 4px white;   
+}
+
+.l2:hover p {
+    color: #FFFFFF;
 }
 
 p {
