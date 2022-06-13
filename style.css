@@ -4,9 +4,16 @@
     box-sizing: border-box;
 }
 
+body {
+    
+}
+
 main {
     background-color: #121214;
-   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     
 }
 
@@ -26,20 +33,25 @@ h1 {
 
 .container {
     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    
+
 }
 
 .users {
         
     display: flex;
     color: #9c9c9c;
-    margin-top: 20%;
+    gap: 1rem;
     justify-content: center;
     max-width: 700px;
     
 }
 
 .l1 {
-    max-width: 700px;
     max-height: 160px;
     width: 160px;
 }
@@ -54,7 +66,19 @@ h1 {
     height: 160px;
     border-radius: 8%;
     max-height: 160px;
+}
 
+.i2 {
+    width: 160px;
+    height: 160px;
+    border-radius: 8%;
+    max-height: 160px;
+}
+
+.l2:hover .i2 {
+    content: url("./img/Hover/quadhover.png");
+    border: solid 4px white;
+    
 }
 
 p {
@@ -67,70 +91,21 @@ p {
     width: 160px;
     height: 160px;
     background-color: #1e1e20;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    border: 5px solid #6F6F70;
+    border-radius: 8%;
+    
     
 }
 
 .quadrado:hover  {
-    border: solid white;
-    border-width: 6px;
-    
+    background-image: url(./img/Hover/inside\ hover.png);
+    background-image: url(./img/Hover/quadrado\ hover.png);    
 }
-
-.quadrado .circulo {
-width: 60px;
-height: 60px;
-border-radius: 50%;
-border: 8px solid #6F6F70;
-display: flex;
-justify-content: center;
-align-items: center;
-
-}
-
-.quadrado:hover .circulo  {
-    border: solid white;
-    border-width: 8px;
-    
-}
-
-.quadrado .circulo .cima {
-    position: relative;
-    width: 0.1px;
-    height: 25px;
-    border-radius: 12px;
-    border: 4px solid #6F6F70;
-
-}
-
-.quadrado:hover .cima  {
-    border: solid white;
-    border-width: 100%;
-}
-
-.quadrado .circulo .baixo {
-    position: absolute;
-    width: 25px;
-    height: 0.1px;
-    border-radius: 12px;
-    border: 4px solid #6F6F70;
-    
-}
-
-.quadrado:hover .baixo  {
-    border: solid white;
-    border-width: 4px;
-}
-
 
 .b_father {
     display: flex;
     justify-content: center;
-    margin-top: 12%;
+    
+    
 }
 
 button {
