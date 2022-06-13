@@ -46,14 +46,24 @@ h1 {
     display: flex;
     color: #9C9C9C;
     gap: 1rem;
-    justify-content: space-between;
+    justify-content: space-evenly;;
     width: 700px;
     max-width: 700px;
+    
 }
 
 li {
     max-height: 160px;
     width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+li p {
+    margin-top: 1rem;
 }
 
 li:hover p {
