@@ -10,6 +10,13 @@ main {
     
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
 h1 {
     color: #FFFFFF;
     font-family: font-family: 'IBM Plex Sans', sans-serif;
@@ -17,20 +24,14 @@ h1 {
     size: 32px;
 }
 
-.c_father { 
-   
-}
 
-.container {
-  
-}
 
 .users {
-        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 700px;
         color: #9c9c9c; 
-        
-        
-        
+      
 }
 
 .l1 {
@@ -121,9 +122,10 @@ align-items: center;
     border-width: 100%;
 }
 
-.fp {
-    position: absolute;
-    margin-bottom: -16%;
+
+.b_father {
+    display: flex;
+    justify-content: center;
 }
 
 button {
